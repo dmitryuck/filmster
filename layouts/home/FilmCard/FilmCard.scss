@@ -1,0 +1,29 @@
+.cardContainer {
+  width: 240px;
+  height: 400px;
+  padding: 10px;
+
+  border: 1px solid #F8F6F6;
+  border-radius: 10px;
+  transition: all linear 0.15s;
+
+  &:hover {
+    box-shadow: rgba(220, 220, 220, 0.5) 0px 2px 10px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  justify-self: center;
+
+  .filmPoster {
+    width: 240px;
+    height: 340px;
+  }
+
+  .infoContainer {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

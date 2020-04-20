@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "name": "Filmster",
+      "script": "./.server/Index.js",
+      "exec_interpreter": "node",
+      "exec_mode": "cluster",
+      "source_map_support": true,
+      "node_args": [],
+      "kill_timeout": 3000,
+      "merge_logs": true,
+      "max_restarts": 20,
+      "instances": 1,
+      "max_memory_restart": "400M",
+      "watch": ["server"],
+      "watch_options": {
+        "followSymlinks": false
+      },
+      "env": {
+        "NODE_ENV": "development",
+        "HOST_URL": "http://localhost",
+        "PORT": 80
+      }
+    }
+  ]
+}

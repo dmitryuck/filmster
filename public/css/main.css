@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url('/font/SegoeUI.ttf');
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  src: url('/font/SegoeUIBold.ttf');
+}
+
+@font-face {
+  font-family: "Segoe UI Light";
+  src: url('/font/SegoeUILight.ttf');
+}
+
+body {
+  font-family: "Regular", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+#__next > div > div {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+#__next > div > div > div {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cfcfcf;
+}
