@@ -1,10 +1,3 @@
-const path = require('path');
-const {
-  PHASE_DEVELOPMENT_SERVER,
-  PHASE_PRODUCTION_BUILD,
-  PHASE_PRODUCTION_SERVER
-} = require('next/constants');
-const webpack = require('webpack');
 const withPlugins = require('next-compose-plugins');
 const withCSS = require('@zeit/next-css');
 const withSass = require('@zeit/next-sass');
